@@ -3,9 +3,10 @@
     margin-top: 50px;
     background: rgb(152, 255, 150);
     border: 5px solid rgb(0, 0, 0);
-    margin-left: -330px;
+    margin-left: -380px;
     padding: 8px;
     border-collapse: collapse;
+    margin-bottom: 50px;
 }
 .head{
     background: #34D0BA;
@@ -40,7 +41,7 @@
 
 @keyframes textAnim {
     0% {
-        font-size: 22px;
+        font-size: 0px;
     }
 
     50% {
@@ -48,6 +49,6 @@
     }
 
     100% {
-        font-size: 22px;    
+        font-size: 0px;    
     }
 }
