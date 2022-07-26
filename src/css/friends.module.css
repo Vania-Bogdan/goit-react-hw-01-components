@@ -29,21 +29,31 @@
     border: 3px solid rgb(0, 0, 0);
 }
 
-.statuson{
+.status{
     width: 15px;
     height: 15px;
     border: 1px solid black;
     border-radius: 50%;
-    background: #006b24;
     margin-right: 10px;
 }
-.statusoff{
-    width: 15px;
-    height: 15px;
-    border: 1px solid black;
-    border-radius: 50%;
+.on{
+    background: #006b24;
+    animation: online 0.5s infinite linear;
+}
+.off{
     background: #d31500;
-    margin-right: 10px;
+}
+
+@keyframes online{
+    0%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(0.8);
+    }
 }
 
 .name{

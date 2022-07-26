@@ -10,8 +10,8 @@ const Friends = ({friends}) => {
                 return (
                     <li className={styleFriends.item} key={friend.id}>
                         {friend.isOnline ?
-                            <div className={styleFriends.statuson}></div>
-                            : <div className={styleFriends.statusoff}></div>
+                            <div className={`${styleFriends.status} ${styleFriends.on}`} ></div>
+                            : <div className={`${styleFriends.status} ${styleFriends.off}`}></div>
                         }
                         <img className={styleFriends.avatar} src={friend.avatar} alt="User avatar" width="48" />
                         <p className={styleFriends.name}>{friend.name}</p>
