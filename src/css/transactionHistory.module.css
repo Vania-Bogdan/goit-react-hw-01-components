@@ -1,0 +1,53 @@
+.table{
+    width: 800px;
+    margin-top: 50px;
+    background: rgb(152, 255, 150);
+    border: 5px solid rgb(0, 0, 0);
+    margin-left: -330px;
+    padding: 8px;
+    border-collapse: collapse;
+}
+.head{
+    background: #34D0BA;
+    height: 50px;
+    border-bottom: 5px solid #000;
+}
+.head th{
+    border: 3px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    width: 33%;
+    animation: textAnim 2.5s infinite linear;
+}
+.body{
+    height: 50px;
+}
+.line{
+    height: 50px;
+}
+.line:hover{
+    background: #C2F83E;
+}
+.item{
+    border: 3px solid rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+
+@keyframes textAnim {
+    0% {
+        font-size: 22px;
+    }
+
+    50% {
+        font-size: 28px;
+    }
+
+    100% {
+        font-size: 22px;    
+    }
+}
